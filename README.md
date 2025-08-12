@@ -1,24 +1,25 @@
-# Conceptual Case Study: Hypothetical TFT for Demand Forecasting
-*Disclaimer: Fictional scenario based on public ML practices, not tied to any real project or proprietary data.*
+# Conceptual TFT Case Study: Demand Forecasting
 
-### Problem:
-A fictional e-commerce platform needs to forecast weekly product demand to streamline inventory.
+### **Disclaimer**: *Fictional scenario based on public ML practices, not tied to any real project or proprietary data.*
 
-### My Approach:
-Built a theoretical TFT model (using PyTorch Forecasting) to capture complex patterns in mock demand data.
-Incorporated static (e.g., product categories) and time-varying features (e.g., promotional events) from public datasets (e.g., Kaggle retail data).
-Used attention mechanisms to prioritize key features and rolling cross-validation to ensure robust predictions.
+### **Problem**: A fictional e-commerce platform needs weekly demand forecasts to optimize inventory.
 
-### Challenges:
+### **Approach**:  
+- Built a theoretical Temporal Fusion Transformer (TFT) using `pytorch_forecasting`.  
+- Used mock data with static features (e.g., product categories) and time-varying inputs (e.g., public holiday flags from Kaggle).  
+- Optimized hyperparameters with Optuna for efficient model tuning.  
+- Tracked experiments using MLFlow to log metrics and model versions.  
+- Validated with rolling cross-validation for robust forecasting.
 
-Handling irregular data gaps. Addressed with TFT’s built-in imputation and attention weighting.
+### **Challenges**: Handled irregular data with TFT’s imputation and attention mechanisms.
 
-### Outcome:
+### **Outcome**: Hypothetical forecasts improved inventory planning.
 
-Hypothetical forecasts improved inventory planning, showcasing advanced time series modeling.
-### Visual:
+### **Visual**:  
+![TFT Loss Curve](/chart.png)  
+*Caption*: Mock TFT validation loss, created for this fictional case study.
 
-[Mock loss curve plot, created in Canva: x-axis (epochs), y-axis (validation loss), showing convergence.]
-### Key Skills:
-
-Python (pytorch_forecasting), TFT modeling, feature engineering, cross-validation.
+### **Key Skills**:  
+- **Machine Learning**: Temporal Fusion Transformer (TFT) modeling, time series forecasting, feature engineering (static and time-varying features).  
+- **Tools & Libraries**: Python (`pytorch_forecasting`, `pandas`, MLFlow, Optuna).  
+- **Techniques**: Hyperparameter optimization (Optuna), experiment tracking (MLFlow), rolling cross-validation, attention-based modeling.
