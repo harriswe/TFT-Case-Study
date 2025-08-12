@@ -1,6 +1,6 @@
 # Conceptual TFT Case Study: Demand Forecasting
 
-### **Disclaimer**: *Fictional scenario based on public ML practices, not tied to any real project or proprietary data.*
+##### **Disclaimer**: *Fictional scenario based on public ML practices, not tied to any real project or proprietary data.*
 
 ### **Problem**: A fictional e-commerce platform needs weekly demand forecasts to optimize inventory.
 
